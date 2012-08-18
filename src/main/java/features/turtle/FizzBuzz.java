@@ -14,7 +14,7 @@ public class FizzBuzz implements features.FizzBuzz {
 			return "Fizz";
 		}
 		if(arg0 % 5 == 0){
-			return 0;
+			return "Buzz";
 		}
 		return new Integer(arg0).toString();
 	}
